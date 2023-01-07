@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'kanit', sans-serif;
+}
+
+.bglight{
+    background-color: #656464;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item a{
+    color: white !important;
+}
+.nav-item a:hover{
+    color: black !important;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+                0 0 20px rgba(255, 166, 0),
+                0 0 60px rgba(255, 166, 0),
+                0 0 150px rgba(255, 166, 0);
+}
+
+/* main-content */
+.main-content{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url(img/header-bakround.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.793);
+}
+.main-content .content{
+    padding-top: 160px;
+    padding-left: 50px;
+    color: white;
+}
+.main-content h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.main-content h2{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.main-content #btn button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255, 166, 0);
+    border: none;
+    transition: 0.3s;
+}
+.main-content #btn button:hover{
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+                0 0 20px rgba(255, 166, 0),
+                0 0 60px rgba(255, 166, 0),
+                0 0 150px rgba(255, 166, 0);
+}
+
+
+/* hero-section-1-start-here */
+.hero-section-1 .card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.hero-section-1 .card:hover{
+    transform: translateY(-15px);
+}
+.hero-section-1 h1{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+.hero-section-1 p{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+
+/* hero-section-2-start-here */
+.hero-section-2 .card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.hero-section-2 .card:hover{
+    transform: translateY(-15px);
+}
+.hero-section-2 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-section-2 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-section-2 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-section-2 h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-section-2 p{
+    font-weight: bold;
+}
+
+/* hero-section-3-start-here */
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.688), rgba(0, 0, 0, 0.688)), url(image/menu-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.banner .chang-content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: rgba(255, 166, 0);
+}
+@keyframes changetext {
+    0%{content: 'Chess Burger';}
+    20%{content: 'Chiken Burger';}
+    60%{content: 'Beef Burger';}
+    80%{content: 'Sandwich';}
+    100%{content: 'Freish';}
+}
+.banner h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px black;
+}
+.banner h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(255, 166, 0);
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+.banner #btn-2 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: rgba(255, 166, 0);
+    border: none;
+    transition: 0.3s;
+}
+.banner #btn-2 button:hover{
+    background-color: rgba(255, 166, 0);
+    box-shadow: 0 0 5px rgba(255, 166, 0),
+                0 0 20px rgba(255, 166, 0),
+                0 0 60px rgba(255, 166, 0),
+                0 0 150px rgba(255, 166, 0);
+}
+
+
+/* hero-section-4-start-here */
+.new-card .card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.new-card{
+    cursor: pointer;
+}
+.new-card h1{
+    /* font-size: 50px; */
+    font-weight: bold;
+    margin-bottom: 10px;
+    opacity: .6;
+}
+.new-card #btn-3{
+    text-align: center;
+}
+.new-card #btn-3 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255, 166, 0);
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.new-card #btn-3:hover button{
+    background-color: black;
+    color: white;
+}
+#btn-4{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+#btn-4 button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: rgba(255, 166, 0);
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#btn-4 button:hover{
+    transform: translateY(-10px);
+}
+
+
+/* hero-section-5-start-here */
+.banner-2{
+    background-image: url(image/delivery.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: 50%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 50px;    
+}
+.banner-2 h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.banner-2 h2{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    margin-left: 50px;
+    padding: 10px;
+    text-shadow: 2px 1px 5px #f32f2f;
+    display: inline-block;
+    background-color: rgba(255, 166, 0);
+}
+.about-us{
+    margin-top: 50px;
+}
+
+
+/* contact-section */
+#contact .form-group{
+    padding: 10px 0;
+}
+#contact .form-group input{
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+}
+#contact .form-group textarea{
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+}
+#contact #btn-5 button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0);
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#contact #btn-5 button:hover{
+    transform: translateY(-10px);
+}
+
+
+/* footer-section-start-here */
+#footer{
+    background: black;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+#footer .footer-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.coppyright{
+    color: white;
+    font-size: 18px;
+}
